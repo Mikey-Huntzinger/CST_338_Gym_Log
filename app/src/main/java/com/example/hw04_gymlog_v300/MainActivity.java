@@ -15,6 +15,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.hw04_gymlog_v300.databinding.ActivityMainBinding;
 
+
+
 public class MainActivity extends AppCompatActivity {
 
     ActivityMainBinding binding;
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     double mWeight;
     int mReps;
 
-    private static final String TAG = "DAC_GYMLOG";
+    public static final String TAG = "DAC_GYMLOG";
 
 
 
