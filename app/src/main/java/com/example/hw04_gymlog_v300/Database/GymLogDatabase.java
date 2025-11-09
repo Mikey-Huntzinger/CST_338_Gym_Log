@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
 @Database(entities = {GymLog.class}, version = 1, exportSchema = false)
 public abstract class GymLogDatabase extends RoomDatabase {
 
-    private static final String DATABASE_NAME = "GymLog_database"
+    private static final String DATABASE_NAME = "GymLog_database";
     public static final String GYM_LOG_TABLE = "gymLogTable";
 
     private static volatile GymLogDatabase INSTANCE;
@@ -52,7 +52,7 @@ public abstract class GymLogDatabase extends RoomDatabase {
             Log.i(MainActivity.TAG, "DATABASE CREATED!");
 
         }
-    }
+    };
 
     public abstract GymLogDAO gymLogDAO();
 }

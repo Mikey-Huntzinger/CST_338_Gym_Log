@@ -34,8 +34,8 @@ public class GymLogRepository {
 
         try {
             return future.get();
-        } catch(InterruptedException | ExecutionException){
-            Log.i(MainActivity.TAG, "ERROR GETTING ALL RECORDS")
+        }catch(InterruptedException | ExecutionException e){
+            Log.i(MainActivity.TAG, "ERROR GETTING ALL RECORDS");
         }
 
         return null;
