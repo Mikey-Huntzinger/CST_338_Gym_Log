@@ -5,4 +5,9 @@
     <string name="weight">Weight</string>
     <string name="enter_a_weight">Enter a weight!</string>
     <string name="log">Log!</string>
+    <string name="reps">Reps</string>
+    <string name="could_not_read_weight">Could not read weight</string>
+    <string name="could_not_read_reps">Could not read Reps</string>
+        <string name="exercise_display_format">Exercise: %1$s\nWeight: %2$.2f\nReps: %3$d\n=-=-=-=
+        </string>
 </resources>
